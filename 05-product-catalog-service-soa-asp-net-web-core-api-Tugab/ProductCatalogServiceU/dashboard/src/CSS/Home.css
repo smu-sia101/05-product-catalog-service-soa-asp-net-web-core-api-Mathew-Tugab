@@ -1,0 +1,56 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(20, 20, 20, 0.85); /* Darker background for better contrast */
+    backdrop-filter: blur(12px);
+    color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.topbar-logo h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff00ff, #00f5ff);
+    -webkit-text-fill-color: transparent;
+}
+
+.topbar-links {
+    display: flex;
+    align-items: center;
+}
+
+    .topbar-links a {
+        margin: 0 12px;
+        text-decoration: none;
+        color: #e0e0e0;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+        padding: 8px 14px;
+        border-radius: 10px;
+    }
+
+
+        .topbar-links a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #ff00ff;
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(255, 0, 255, 0.3);
+        }
+
+
+.icon {
+    margin-right: 8px;
+    font-size: 22px;
+    color: inherit;
+}

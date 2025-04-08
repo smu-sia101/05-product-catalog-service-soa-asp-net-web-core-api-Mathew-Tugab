@@ -1,0 +1,53 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.topbar-logo h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00f5a0, #00d9f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.topbar-links {
+    display: flex;
+    align-items: center;
+}
+
+    .topbar-links a {
+        margin: 0 12px;
+        text-decoration: none;
+        color: #e0e0e0;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+        padding: 6px 10px;
+        border-radius: 8px;
+    }
+
+        .topbar-links a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #00f5a0;
+            transform: translateY(-2px);
+        }
+
+.icon {
+    margin-right: 8px;
+    font-size: 22px;
+    color: inherit;
+}
